@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+.navbar-container{
+    background-color: rgb(10, 30, 50);
+    height: 90px;
+    width: 100%; 
+    position: fixed;
+    
+     
+}
+
+.navbar-cpmponents{
+    padding-left: 200px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar-logo{
+    height: 60px;
+    width: 60px; 
+    margin-right: 550px;
+    
+    
+}
+.navbar-home-link, .navbar-cohortone-link ,.navbar-modules-link ,.navbar-talktous-link ,.navbar-joinnow-link ,.navbar-login-link  {  
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 20px;
+
+}
+
+.navbar-home-link:hover, .navbar-cohortone-link:hover ,.navbar-modules-link:hover ,.navbar-talktous-link:hover ,.navbar-joinnow-link:hover ,.navbar-login-link:hover  {  
+    color: #106eea;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 500;  
+
+}
+
+ 

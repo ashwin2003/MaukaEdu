@@ -1,0 +1,195 @@
+.home-container{
+    box-sizing: border-box;
+    
+  
+}
+.home-container-main{ 
+    height: 1800px;
+    width: 100%;
+    background-color: #f6f9fe;
+}
+
+.home-main{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(10, 30, 50);
+    display: flex;
+    flex-direction: row;
+}
+
+.home-intro{
+    height: 170px;
+    width: 500px;
+    padding-top: 200px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-hero1-heading{
+    font-size: 3.3rem;
+    font-weight: 900;
+    line-height: 56px;
+    background-clip: text;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.home-hero1-subheading{ 
+color :white;
+display :block;
+font-family :Roboto, sans-serif;
+font-size :32px;
+font-weight :200;
+}
+
+.home-main-img{
+    padding-top: 100px;
+    height: 550px;
+    width: 700px; 
+}
+
+.home-aboutmauka-heading{
+    font-size: 25px; 
+    font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: rgb(6, 43, 91);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-aboutmauka-main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.home-aboutmauka-description{ 
+    height: 160px;
+    width: 540px;
+    color: rgb(10, 30, 50);
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 150px;
+    padding-right: 100px;
+}
+
+.home-aboutmauka-gif{
+    height: 375px;
+    width: 300px;
+}
+
+
+.home-cohort{
+    height: 1000px;
+    width: 100%;
+    background-color: #0e5add;
+}
+
+
+.home-cohort-heading{
+    font-size: 25px; 
+    font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: rgb(6, 43, 91);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.home-cohort-main{
+    display: flex;
+    flex-direction: row; 
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.home-aboutmauka-img{ 
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 250px;
+    width: 540px;
+    box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
+    border-radius: 10%;
+}
+
+.home-cohort-description{
+    height: 160px;
+    width: 540px;
+    color: rgb(10, 30, 50);
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;  
+    padding-right: 100px;
+}
+
+
+.home-modules-heading{
+    font-size: 25px; 
+    font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: rgb(6, 43, 91);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-modules-subheading{
+    font-size: 20px; 
+    font-weight: 500; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: rgb(6, 43, 91);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-modules-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    size: 900px;
+}
+
+.home-modules-card1, .home-modules-card2 , .home-modules-card3 , .home-modules-card4{
+    height: 350px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 29px 0 rgb(32 84 213 / 37%);
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+} 
+.home-modules-card1:hover, .home-modules-card2:hover , .home-modules-card3:hover , .home-modules-card4:hover{
+     color: white;
+     background-color: rgb(10, 30, 50);
+
+} 
+.home-card1-button ,.home-card2-button, .home-card3-button, .home-card4-button{
+    height: 45px;
+    width: 115px;
+    color: white;
+    border-width: 0px;
+    background-color: rgb(10, 30, 50);
+    border-radius: 20px;
+    font-size: 16px;
+}
+.home-card1-button:hover ,.home-card2-button:hover, .home-card3-button:hover, .home-card4-button:hover{ 
+   
+    color: rgb(10, 159, 228);
+    background-color: white; 
+    border: rgb(10, 30, 50);
+}
+
+
+ 
