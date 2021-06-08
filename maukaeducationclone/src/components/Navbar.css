@@ -30,6 +30,7 @@
     
 }
 .navbar-home-link, .navbar-cohortone-link ,.navbar-modules-link ,.navbar-talktous-link ,.navbar-joinnow-link ,.navbar-login-link  {  
+    text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 10px;
     font-size: 15px;

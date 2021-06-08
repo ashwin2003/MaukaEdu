@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css';
-import maukaimg1 from '../Images/maukaimg1.PNG'
-import Button from '@material-ui/core/Button';
+import maukaimg1 from '../Images/maukaimg1.PNG' 
 import maukaimg2 from '../Images/maukaimg2.gif'
 import maukaimg3 from '../Images/maukaimg3.PNG'
 import EventNoteRoundedIcon from '@material-ui/icons/EventNoteRounded';
@@ -27,7 +26,7 @@ export default function Home() {
                                 <button variant="contained" style={{ height: "40px", width: "120px", borderRadius:"5px" }}>Join now</button>
                             </div>
                         </div>
-                        <img src={maukaimg1} class="home-main-img" />
+                        <img src={maukaimg1} class="home-main-img" alt=""/>
                     </div>
                     <br />
                     <br />
@@ -40,7 +39,7 @@ export default function Home() {
                         <br />
                         CohortOne will be the first of many communities for students to fail, learn, and improve.
                  </div>
-                        <img src={maukaimg2} class="home-aboutmauka-gif" />
+                        <img src={maukaimg2} class="home-aboutmauka-gif" alt=""/>
                     </div><br /><br /><br />
 
 
@@ -48,7 +47,7 @@ export default function Home() {
                     <div className="home-cohort-heading">COHORT DETAILS</div>
                     <div className="home-cohort-main">
 
-                        <img src={maukaimg3} class="home-aboutmauka-img" />
+                        <img src={maukaimg3} class="home-aboutmauka-img" alt="" />
                         <div className="home-cohort-description">
                             <div style={{ fontSize: "30px", fontWeight: "600", color: "rgb(68, 68, 68)" }}>Join our #CohortOne</div>
                             <div style={{ fontSize: "25px", fontWeight: "500", fontStyle: "italic", color: "rgb(68, 68, 68)" }}> Get exclusive access to our community of 20 highly motivated individuals like you.</div>

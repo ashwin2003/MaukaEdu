@@ -14,14 +14,14 @@ export default function Navbar() {
     <nav class="sticky-top">
       <div className="navbar-container"  >
         <div className="navbar-cpmponents">
-          <img src={maukaLogo} class="navbar-logo" />
+          <img src={maukaLogo} class="navbar-logo" alt=""/>
 
-          <a className="navbar-home-link"> Home </a>
-          <a className="navbar-cohortone-link"> CohortOne </a>
+          <a href="/" className="navbar-home-link"> Home </a>
+          <a href="/" className="navbar-cohortone-link"> CohortOne </a>
           <PopupState variant="popover" popupId="demo-popup-menu">
             {(popupState) => (
               <React.Fragment>
-                <a className="navbar-modules-link" variant="contained" color="primary" style={{ height: "40px" }} {...bindTrigger(popupState)}>
+                <a href="/" className="navbar-modules-link" variant="contained" color="primary" style={{ height: "40px" }} {...bindTrigger(popupState)}>
                   Modules<box-icon type='solid' name='chevron-down' size="15px" color="white"></box-icon>
           </a>
                 <Menu {...bindMenu(popupState)} style={{ color: "tomato" }}>
@@ -33,9 +33,9 @@ export default function Navbar() {
               </React.Fragment>
             )}
           </PopupState>
-          <a className="navbar-talktous-link"> Talk to Us </a>
-          <a className="navbar-joinnow-link"> Join now </a>
-          <a className="navbar-login-link"> Login </a>
+          <a href="/" className="navbar-talktous-link"> Talk to Us </a>
+          <a href="/" className="navbar-joinnow-link"> Join now </a>
+          <a  href="/"className="navbar-login-link"> Login </a>
         </div>
       </div>
     </nav>
