@@ -21,7 +21,7 @@ export default function Navbar() {
           <PopupState variant="popover" popupId="demo-popup-menu">
             {(popupState) => (
               <React.Fragment>
-                <a href="/" className="navbar-modules-link" variant="contained" color="primary" style={{ height: "40px" }} {...bindTrigger(popupState)}>
+                <a  className="navbar-modules-link" variant="contained" color="primary" style={{ height: "40px" }} {...bindTrigger(popupState)}>
                   Modules<box-icon type='solid' name='chevron-down' size="15px" color="white"></box-icon>
           </a>
                 <Menu {...bindMenu(popupState)} style={{ color: "tomato" }}>
