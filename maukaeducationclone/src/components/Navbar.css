@@ -35,7 +35,7 @@
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-    padding-top: 20px;
+    padding-top: 20px; 
 
 }
 
@@ -44,6 +44,8 @@
     line-height: 1.5;
     font-size: 18px;
     font-weight: 500;  
+    position: sticky;
+    transition: all 0.2s ease-in-out;
 
 }
 

@@ -3,7 +3,7 @@ import './Navbar.css';
 import maukaLogo from '../Images/maukaLogo.png'
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import Button from '@material-ui/core/Button';
+import 'boxicons'
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 
 
@@ -22,7 +22,7 @@ export default function Navbar() {
             {(popupState) => (
               <React.Fragment>
                 <a className="navbar-modules-link" variant="contained" color="primary" style={{ height: "40px" }} {...bindTrigger(popupState)}>
-                  Modules
+                  Modules<box-icon type='solid' name='chevron-down' size="15px" color="white"></box-icon>
           </a>
                 <Menu {...bindMenu(popupState)} style={{ color: "tomato" }}>
                   <MenuItem onClick={popupState.close}>Communication</MenuItem>

@@ -24,7 +24,7 @@ export default function Home() {
                      </div>
                             <br />
                             <div className="home-joinnow-button">
-                                <Button variant="contained" style={{ height: "40px", width: "120px" }}>Join now</Button>
+                                <button variant="contained" style={{ height: "40px", width: "120px", borderRadius:"5px" }}>Join now</button>
                             </div>
                         </div>
                         <img src={maukaimg1} class="home-main-img" />
